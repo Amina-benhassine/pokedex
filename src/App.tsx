@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <PokemonCard pokemon={pokemonList[0]} />
+      <PokemonCard userInfo={pokemonList[0]} />
     </div>
   );
 }
